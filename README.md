@@ -6,6 +6,10 @@ In this blog I will be writing my weekly progress to keep track of the work done
 hola 
 =======
 adios
+<<<<<<< HEAD
 >>>>>>> c97cd6404a0d5eeda5171b29fcf3bd50af943e06
 
 hello
+=======
+bye
+>>>>>>> 2d2a8f640133756bd0fdf0a9dbea709a87bd5ffc
