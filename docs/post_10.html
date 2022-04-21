@@ -40,10 +40,13 @@
             <div class="col-md-8 blog-main">
 
             <div class="blog-post">
-                <h2 class="blog-post-title">Week III (February 7th - 13th)</h2>
+                <h2 class="blog-post-title">Week X (March 28th - April 3rd)</h2>
                 <p class="blog-post-meta">, 2022 by <a href="#">Patricia Crecis</a></p>
 
-                <p> Weekly work </p>
+                <p> In week 10 I focused in the shared memory prototype, I had some problems because I couldn't access the same shared memory, I tried with buffers but it didn't work either, 
+                it gave me an error when I implemented it with multiprocessing, then I consulted with my mentor and it worked for him using Linux. It turns out that Multiprocessing behaves very differently 
+                on Windows and Linux so I executed the file inside a docker container and it worked. One process was the writer and it was writing several numbers in the shared memory, at a given frequency and the other
+                process, the reader, was reading the numbers that were in the shared memory and printing them in the console, so  both processes have access to the shared memory.</p>
             </div>
 
             </div>
